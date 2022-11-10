@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+       for(int i = 0; i<2; i++){
+
       Scanner stdIn = new Scanner(System.in);
    
       System.out.println("BMIを計算して肥満度を表示します。");
@@ -18,5 +20,6 @@ public class Main {
       System.out.print("BMI値は");
       System.out.printf("%.2f",bmi);
       System.out.println("です。");
+    }
   }
 }
